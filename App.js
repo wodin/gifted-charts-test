@@ -15,15 +15,17 @@ export default function App() {
   ];
   return (
     <View style={styles.container}>
-      <BarChart
-        barWidth={22}
-        noOfSections={3}
-        barBorderRadius={4}
-        frontColor="lightgray"
-        data={barData}
-        yAxisThickness={0}
-        xAxisThickness={0}
-      />
+      <View>
+        <BarChart
+          barWidth={22}
+          noOfSections={3}
+          barBorderRadius={4}
+          frontColor="lightgray"
+          data={barData}
+          yAxisThickness={0}
+          xAxisThickness={0}
+        />
+      </View>
       <StatusBar style="auto" />
     </View>
   );
